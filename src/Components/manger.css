@@ -1,0 +1,50 @@
+.boxing{
+ /* width: ; */
+ /* background-color: red; */
+ height: 100vh;
+ /* background-color: white; */
+ 
+ background: rgb(2,0,36);
+ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,117,0.9211136890951276) 38%, rgba(0,212,255,1) 100%);
+color: white;
+}
+/* Apply general styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Apply responsive styles */
+  /* Adjust layout for small screens */
+  @media screen and (max-width: 768px) {
+    .mycontainer {
+      padding: 20px;
+    }
+    .passwords table {
+      width: 100%;
+      overflow-x: auto;
+    }
+  }
+  
+  /* Adjust layout for medium screens */
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    .mycontainer {
+      max-width: 80%;
+    }
+  }
+  
+  /* Adjust layout for large screens */
+  @media screen and (min-width: 1025px) {
+    .mycontainer {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+  }
+  
+  /* Add any other specific responsive styles as needed */
+  
